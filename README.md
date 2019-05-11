@@ -1,2 +1,2 @@
 # arch
-Arch install scrpt
+Arch install script
