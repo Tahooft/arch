@@ -1,0 +1,2 @@
+# arch
+Arch install scrpt
