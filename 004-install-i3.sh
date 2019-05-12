@@ -17,6 +17,9 @@ sudo pacman -S xf86-video-ati xf86-video-fbdev xf86-video-vesa --noconfirm --nee
 # i3
 sudo pacman -S i3-gaps i3status i3blocks dmenu perl-anyevent-i3 perl-json-xs --noconfirm --needed
 
+cp ~/Hitachi/debin/.vimrc /home/th/.vimrc
+cp ~/Hitachi/debin/.Xresources /home/th/.Xresources
+cp ~/Hitachi/debin/.Xresources /home/th/.Xdefaults
 cp ~/Hitachi/debin/config /home/th/.config/i3/config
 
 echo ""
