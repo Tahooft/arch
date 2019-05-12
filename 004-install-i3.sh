@@ -22,6 +22,10 @@ cp ~/Hitachi/debin/.Xresources /home/th/.Xresources
 cp ~/Hitachi/debin/.Xresources /home/th/.Xdefaults
 cp ~/Hitachi/debin/config /home/th/.config/i3/config
 
+sudo pacman -S lightdm  lightdm-gtk-greeter:
+#systemctl enable lightdm
+
 echo ""
 echo "###################    Done               ######################"
 echo ""
+echo "Start lightdm"
