@@ -9,12 +9,11 @@ echo ""
 curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/002-fase-two.sh
 curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/003-mount-sdb1.sh
 curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/004-install-i3.sh
+curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/006-install-n-cores.sh
+curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/013-aur-tools.sh
 #curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/005-install-if-microcode-error.sh
-#curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/006-install-n-cores.sh
 #curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/009-install-mirrors-optimized.sh
 #curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/010-install-git.sh
-#curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/060-install-plasma-desktop.sh
-#curl -LJO https://raw.githubusercontent.com/Tahooft/arch/master/061-install-display-manager.sh
 
 chmod +x 0*
 
