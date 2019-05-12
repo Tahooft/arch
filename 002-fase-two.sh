@@ -77,7 +77,13 @@ echo ""
 
 sudo pacman -S bash-completion bash-language-server firefox-developer-edition --noconfirm --needed
 sudo pacman -S code vlc mplayer vim urxvc urxvc-perls xclip --noconfirm --needed
-sudo pacman -S slint vifm mc openra ranger filezilla --noconfirm --needed
+sudo pacman -S slint vifm mc openra ranger filezilla xdg-user-dirs--noconfirm --needed
+
+echo ""
+echo "##############    Installing userdirs           #################"
+echo ""
+
+xdg-user-dirs-update
 
 # Optional - eerst nog uitzoeken
 #vim vim-jellybeans vim-seti pamac-tray-appindicator 
