@@ -15,6 +15,9 @@ fi
 
 sudo mount /dev/sdb1 ~/Hitachi
 
+cp ~/Hitachi/debin/.Xresources /home/th/.Xresources
+cp ~/Hitachi/debin/.vimrc /home/th/.vimrc
+
 echo ""
 echo "###################    Done               ######################"
 echo ""
