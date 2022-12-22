@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/usr/share/backgrounds/arcolinux/koi-fishes-1920x1080.png' 
