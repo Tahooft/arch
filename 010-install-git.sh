@@ -16,25 +16,17 @@
 set -e
 
 echo ""
-echo "################################################################"
-echo "####             Installing GIT                              ###"
-echo "################################################################"
-echo ""
-
-sudo pacman -S git --noconfirm --needed
-
-echo ""
 echo "###              Configuring git                            ####"
 echo ""
-
+# change into your name and email.
 git init
-git config --global user.name "Testing"
-git config --global user.email "testing@bouwsite1.ont"
-sudo git config --system core.editor nano
+git config --global user.name "Tahooft"
+git config --global user.email "tahooft@gmail.com"
+sudo git config --system core.editor vim
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=18000'
 git config --global push.default simple
 
 echo ""
-echo "####            GIT installed                                ###"
+echo "####            GIT configured                                ###"
 echo ""
